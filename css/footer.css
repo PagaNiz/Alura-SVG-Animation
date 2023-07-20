@@ -1,0 +1,28 @@
+.containerFooter{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.lettFooter{
+    width: 60%;
+    fill: var(--cor-branco);
+    opacity: 0.7;
+    position: absolute;
+    left: 20%;
+    margin-top: 20%;
+}
+
+.footerInfos{
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    left: 41%;
+    bottom: 1px;
+}
+
+@media (max-width: 719px){
+    .footerInfos{
+        left: 25%;
+        opacity: 0.5;
+    }
+}

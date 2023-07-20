@@ -1,0 +1,51 @@
+.containerHeader{
+    width: 100vw;
+}
+
+.lettHeader{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-top: 10%;
+    fill: transparent;
+    animation: lettPreenchimento 0.5s ease-in-out forwards 1s;
+}
+
+.lettHeader path {
+    stroke-width: 2px;
+    stroke: var(--cor-verao);
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: lettTracado 0.5s ease-in-out forwards 1s;
+}
+
+@keyframes lettPreenchimento {
+    to{
+        fill: var(--cor-verao);
+    }
+}
+
+@keyframes lettTracado{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+@media (max-width: 719px){
+    .containerHeader{
+        width: 100vw;
+    }
+    .praiaCaiaques{
+        display: none;
+    }
+    .lettHeader{
+        width: 60%;
+    }
+}
+
+@media (min-width: 720px){
+    .praiaCaiaquesMobile{
+        display: none;
+    }
+}

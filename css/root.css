@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Pacifico&display=swap');
+@import url('./header.css');
+@import url('./card.css');
+@import url('./footer.css');
+
+
+:root{
+    /* Cores */
+    --cor-verao: #BE253F;
+    --cor-bg: #FFEAD4;
+    --cor-cinza: #484848;
+    --cor-branco: #FFF;
+    --azul-footer: #00B8C4;
+
+    /* fontes */
+    --fonte-titulo: 'Pacifico', cursive;
+    --fonte-texto: 'Lato', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-bg);
+    overflow-x: hidden;
+}
